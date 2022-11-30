@@ -10,7 +10,7 @@ red.addEventListener('onclick', ()=>{
     red.style.opacity = '0.8';
     yellow.style.opacity = '1';
 })
-yellow.addEventListener('onclick', ()=>{
+yellow.addEventListener(onclick, ()=>{
     yellow.style.opacity = '0.8';
     green.style.opacity = '1';
 })
